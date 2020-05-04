@@ -29,7 +29,6 @@
   <li>age_net.caffemodel</li>
   <li>gender_deploy.prototxt</li>
   <li>gender_net.caffemodel</li>
-  <li>a few pictures to try the project on</li>
   <li>detect.py</li>
  </ul>
  <p>For face detection, we have a .pb file- this is a protobuf file (protocol buffer); it holds the graph definition and the trained weights of the model. We can use this to run the trained model. And while a .pb file holds the protobuf in binary format, one with the .pbtxt extension holds it in text format. These are TensorFlow files. For age and gender, the .prototxt files describe the network configuration and the .caffemodel file defines the internal states of the parameters of the layers.</p>
@@ -60,43 +59,26 @@
     Gender: Female
     Age: 25-32 years
     
-<img src="Example/Detecting age and gender girl1.png">
-
-    >python detect.py --image girl2.jpg
-    Gender: Female
-    Age: 8-12 years
-    
-<img src="Example/Detecting age and gender girl2.png">
+<img src="sample/Detecting age and gender girl1.png">
 
     >python detect.py --image kid1.jpg
     Gender: Male
     Age: 4-6 years    
     
-<img src="Example/Detecting age and gender kid1.png">
-
-    >python detect.py --image kid2.jpg
-    Gender: Female
-    Age: 4-6 years  
-    
-<img src="Example/Detecting age and gender kid2.png">
+<img src="sample/Detecting age and gender kid1.png">
 
     >python detect.py --image man1.jpg
     Gender: Male
     Age: 38-43 years
     
-<img src="Example/Detecting age and gender man1.png">
+<img src="sample/Detecting age and gender man1.png">
 
-    >python detect.py --image man2.jpg
-    Gender: Male
-    Age: 25-32 years
-    
-<img src="Example/Detecting age and gender man2.png">
 
     >python detect.py --image woman1.jpg
     Gender: Female
     Age: 38-43 years
     
-<img src="Example/Detecting age and gender woman1.png">
+<img src="sample/Detecting age and gender woman1.png">
     
 # Support :
 If you found this project helpful and if you have any Query regarding this then contact me:
